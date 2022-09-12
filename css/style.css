@@ -8,11 +8,20 @@
   --lightblue: #b4d0e7;
   --white: #ffffff;
   --blue: #0061ff;
+  --black: #000000;
 }
 
 body {
   background-color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.small-container {
+  max-width: 1000px;
+  margin: 150px auto;
 }
 .flexbox {
   display: flex;
@@ -20,7 +29,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-nav {
+header nav {
   width: 100%;
   height: 80px;
   position: fixed;
@@ -32,11 +41,6 @@ nav {
 .nav-function {
   display: inline;
   margin-bottom: 20px;
-}
-
-#hero {
-  background-color: var(--lightblue);
-  padding-top: 80px;
 }
 
 .logo {
@@ -60,4 +64,61 @@ a {
 
 .btn-font {
   color: var(--white);
+}
+
+#hero {
+  background-color: var(--lightblue);
+  padding-top: 80px;
+}
+#hero .container {
+  position: relative;
+  bottom: -80px;
+}
+#hero img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 76px;
+  margin-bottom: 50px;
+}
+.d-flex {
+  display: flex;
+}
+.w-30 {
+  width: 30%;
+}
+.w-70 {
+  width: 70%;
+}
+#trial {
+  margin-top: 25px;
+  padding: 10px 5px;
+  margin-bottom: 25px;
+}
+.annulla {
+  margin-left: -13px;
+  font-size: 14px;
+}
+/* FOOTER  */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+}
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+
+h3 {
+    margin-top: 80px;
+    padding-bottom: 25px;
+}
+
+li {
+    padding: 8px 0;
 }

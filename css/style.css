@@ -9,6 +9,11 @@
   --white: #ffffff;
   --blue: #0061ff;
   --black: #000000;
+  --lightgrey: #eeeeee;
+  --grey: #939393;
+  --greyC5: #c5c5c5;
+  --greya0: #a0a0a0;
+  --greybb: #bbbbbb;
 }
 
 body {
@@ -23,6 +28,8 @@ body {
   max-width: 1000px;
   margin: 150px auto;
 }
+
+/* HEADER  */
 .flexbox {
   display: flex;
   flex-direction: row;
@@ -100,6 +107,35 @@ h1 {
   margin-left: -13px;
   font-size: 14px;
 }
+
+/* MAIN  */
+.line {
+  margin: 30px 0;
+}
+#greya0 {
+  border-top: 1px solid var(--greya0);
+}
+#greyc5 {
+  border-top: 1px solid var(--greyC5);
+}
+#lightgrey {
+  border-top: 1px solid var(--lightgrey);
+}
+#greybb {
+  border-top: 1px solid var(--greybb);
+}
+#domande-frequenti {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.faq {
+  font-weight: 600;
+}
+.angle-down {
+  margin-right: 30px;
+}
+
 /* FOOTER  */
 footer {
   background-color: var(--black);
@@ -115,10 +151,10 @@ ul {
 }
 
 h3 {
-    margin-top: 80px;
-    padding-bottom: 25px;
+  margin-top: 80px;
+  padding-bottom: 25px;
 }
 
 li {
-    padding: 8px 0;
+  padding: 8px 0;
 }

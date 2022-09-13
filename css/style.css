@@ -17,9 +17,7 @@
   --rose: #e5b5b6;
 }
 
-.debug {
-  border: 1px solid lightgray;
-}
+
 
 body {
   background-color: var(--white);
@@ -181,6 +179,7 @@ h1 {
   display: inline-block;
   width: 273px;
   margin-top: 20px;
+  border: 1px solid lightgray;
 }
 
 .center {

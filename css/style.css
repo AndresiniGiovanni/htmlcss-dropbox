@@ -17,8 +17,6 @@
   --rose: #e5b5b6;
 }
 
-
-
 body {
   background-color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
@@ -174,18 +172,22 @@ h1 {
 .flex-plan{
   display: flex;
   flex-basis: auto;
+  flex-wrap:wrap ;
+  justify-content: space-between;
+  
 }
 .container-plan {
   display: inline-block;
-  width: 273px;
+  width: 293px;
   margin-top: 20px;
-  border: 1px solid lightgray;
+  border: 1px solid var(--greyC5);
+
 }
 
 .center {
-margin:  0 40px;
 margin-top: 20px;
 }
+
 .plan-type {
   text-align: center;
   font-size: 16px;
@@ -202,8 +204,54 @@ margin-top: 20px;
 .check {
   color: var(--blue);
 }
-.container-plan>*{
+.container-plan>*{ 
   margin: 25px;
+}
+/* HORIZONTAL CONTAINER  */
+.h-container{
+width: 1000px;
+border: 1px solid var(--greyC5);
+ margin-top: 50px;
+}
+
+.divider-100 {
+  width: 100%;
+  border-top: 1px solid var(--greyC5);
+  margin-top: 15px;
+}
+
+.team-building {
+  text-align: center;
+  margin-top: 15px;
+}
+#enterprise {
+  display: inline;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.contact-btn {
+  margin-top: 25px;
+  margin-right: 25px;
+  padding: 10px 6px;
+}
+.h-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+#price {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+#info-p {
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+#enterprise, #price, #info-p {
+  margin-left: 25px;
 }
 .plan {
   width: 80%;

@@ -14,6 +14,11 @@
   --greyC5: #c5c5c5;
   --greya0: #a0a0a0;
   --greybb: #bbbbbb;
+  --rose: #e5b5b6;
+}
+
+.debug {
+  border: 1px solid lightgray;
 }
 
 body {
@@ -109,10 +114,10 @@ h1 {
 }
 
 /* MAIN  */
-#plan {
+#titleplan {
   font-size: 34px;
 }
-
+/* CUSTOM BUTTON  */
 .custom-btn {
   display: inline-block;
   position: relative;
@@ -167,7 +172,43 @@ h1 {
   border-radius: 50%;
   background: white;
 }
+/* END CUSTOM BUTTON  */
+.flex-plan{
+  display: flex;
+  flex-basis: auto;
+}
+.container-plan {
+  display: inline-block;
+  width: 273px;
+  margin-top: 20px;
+}
 
+.center {
+margin:  0 40px;
+margin-top: 20px;
+}
+.plan-type {
+  text-align: center;
+  font-size: 16px;
+}
+.buynow {
+  color: var(--blue);
+  text-decoration: underline;
+  margin-left: -13px;
+}
+.divider{
+  width: 40px;
+  border: 1px solid var(--rose);
+}
+.check {
+  color: var(--blue);
+}
+.container-plan>*{
+  margin: 25px;
+}
+.plan {
+  width: 80%;
+}
 .line {
   margin: 30px 0;
 }

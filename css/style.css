@@ -169,23 +169,21 @@ h1 {
   background: white;
 }
 /* END CUSTOM BUTTON  */
-.flex-plan{
+.flex-plan {
   display: flex;
   flex-basis: auto;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 .container-plan {
   display: inline-block;
   width: 293px;
   margin-top: 20px;
   border: 1px solid var(--greyC5);
-
 }
 
 .center {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .plan-type {
@@ -197,21 +195,21 @@ margin-top: 20px;
   text-decoration: underline;
   margin-left: -13px;
 }
-.divider{
+.divider {
   width: 40px;
   border: 1px solid var(--rose);
 }
 .check {
   color: var(--blue);
 }
-.container-plan>*{ 
+.container-plan > * {
   margin: 25px;
 }
 /* HORIZONTAL CONTAINER  */
-.h-container{
-width: 1000px;
-border: 1px solid var(--greyC5);
- margin-top: 50px;
+.h-container {
+  width: 1000px;
+  border: 1px solid var(--greyC5);
+  margin-top: 50px;
 }
 
 .divider-100 {
@@ -237,7 +235,7 @@ border: 1px solid var(--greyC5);
 .h-flex {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 #price {
   font-weight: 600;
@@ -250,8 +248,40 @@ border: 1px solid var(--greyC5);
   max-width: 700px;
   margin-bottom: 25px;
 }
-#enterprise, #price, #info-p {
+#enterprise,
+#price,
+#info-p {
   margin-left: 25px;
+}
+/* END CONTAINER PLAN  */
+
+/* IMAGE + TEXT SECTION 2 */
+.flex-partner {
+  display: flex;
+  justify-content:space-around;
+}
+#big-image {
+  width: 60%;
+}
+#text {
+  width: 40%;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+#title-partner{
+  margin-top: 50px;
+}
+#parag {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.white-btn{
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  padding: 8px 1px;
+}
+.btn-white-font {
+  color: var(--black);
 }
 .plan {
   width: 80%;
@@ -297,7 +327,7 @@ ul {
   list-style-type: none;
 }
 
-h3 {
+.h3 {
   margin-top: 80px;
   padding-bottom: 25px;
 }

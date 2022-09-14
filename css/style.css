@@ -526,9 +526,27 @@ li {
   display: flex;
   flex-direction: row;
 }
-.footer-language {
+.footer-earth {
   width: 1200px;
   margin-top: 10px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+
+.divider-footer {
+  margin-top: 100px;
+  width: 100px;
+  border:  1px solid var(--white);
+}
+
+.lang-footer {
+  padding-bottom: 50px;
+}
+
+.lang-selector {
+  margin-left: 10px;
+  background-color: #000000;
+  color: var(--white);
+  border: 0px solid black;
 }

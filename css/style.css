@@ -7,6 +7,7 @@
 :root {
   --lightblue: #b4d0e7;
   --white: #ffffff;
+  --whitef5: #f5f5f5;
   --blue: #0061ff;
   --black: #000000;
   --lightgrey: #eeeeee;
@@ -15,6 +16,16 @@
   --greya0: #a0a0a0;
   --greybb: #bbbbbb;
   --rose: #e5b5b6;
+  --lightgreyd7: #d7d7da;
+
+/* SVG IMAGE VAR COLOR  */
+--lightgreen: #a2d39b;
+--plum: #61082b;
+--turquoise: #0093ce;
+--red: #ff1c1c;
+--darkred: #d5001f;
+--darkblue: #0d2481;
+--gold: #ffd830;
 }
 
 body {
@@ -107,6 +118,11 @@ h1 {
 .annulla {
   margin-left: -13px;
   font-size: 14px;
+}
+
+.arrow-down {
+  margin-top: 100px;
+  font-size: 46px;
 }
 
 /* MAIN  */
@@ -289,23 +305,103 @@ h1 {
   width: 80%;
 }
 
-  /* SECTION BUSINESS */
-  .business {
-    width: 1000px;
-    margin: 0 auto;
-  }
+/* SECTION BUSINESS */
+.business {
+  width: 1000px;
+  margin: 0 auto;
+}
 
 .h2-team {
   width: 400px;
 }
 
 .blue-link {
-  color:  var(--blue);
+  color: var(--blue);
   text-decoration: underline;
-  margin: 50px -8px 80px ;
+  margin: 50px -8px 80px;
+}
+/* SECTION SVG IMAGE  */
+
+.svg-flex {
+  display: flex;
+}
+.square-logo {
+  width: calc(100% / 3);
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.content {
+  overflow-y: auto;
+  height: 32vw;
+  padding: 10px;
+  background-color: var(--whitef5)
 }
 
+.center-content {
+  width: 90%;
+  margin-left: 30px;
+}
+.img-card {
+  width: 50%;
+  height: 16vw;
+  position: relative;
+  
+}
+.center-svg {
+  filter: invert(1);
+  width: 40%;
+  height: 8vw;
+}
+#svg-scale {
+  width: 100%;
+  height: 100%;
+}
+.divider-svg {
+  width: 100px;
+  border: 1px solid var(--lightgreyd7);
+}
+#dropbox-paper {
+  margin-top: 30px;
+  line-height: 22px;
+}
+#morten {
+  margin-top: 40px;
+}
+.square-logo img {
+  filter: invert(1);
+  width: 50%;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#lightgreen {
+background-color: var(--lightgreen);
+}
+#plum {
+  background-color: var(--plum);
+}
+#turquoise {
+  background-color: var(--turquoise);
+}
+#red {
+  background-color: var(--red);
+}
+#darkred{
+  background-color: var(--darkred);
 
+}
+#lightblue {
+  background-color: var(--lightblue);
+}
+#darkblue {
+  background-color: var(--darkblue);
+}
+#gold {
+  background-color: var(--gold);
+}
 /* FREE TRIAL SECTION  */
 
 .freetrial {
@@ -386,4 +482,13 @@ ul {
 
 li {
   padding: 8px 0;
+}
+.lang-flex {
+  display: flex;
+  flex-direction: row;
+}
+.footer-language {
+  width: 1200px;
+  margin-top: 10px;
+  margin: 0 auto;
 }

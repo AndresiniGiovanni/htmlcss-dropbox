@@ -211,7 +211,10 @@ h1 {
 
 .plan-type {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--greyC5);
+  
 }
 .buynow {
   color: var(--blue);
@@ -225,7 +228,7 @@ h1 {
 .check {
   color: var(--blue);
 }
-.container-plan > * {
+.margin > * {
   margin: 25px;
 }
 /* HORIZONTAL CONTAINER  */

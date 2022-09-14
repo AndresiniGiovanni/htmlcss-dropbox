@@ -175,6 +175,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .container-plan {
   display: inline-block;
   width: 293px;
@@ -258,7 +259,7 @@ h1 {
 /* IMAGE + TEXT SECTION 2 */
 .flex-partner {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 #big-image {
   width: 60%;
@@ -268,14 +269,15 @@ h1 {
   margin-right: 60px;
   margin-left: 60px;
 }
-#title-partner{
+#title-partner {
   margin-top: 50px;
 }
 #parag {
   margin-top: 20px;
   margin-bottom: 35px;
+  line-height: 22px;
 }
-.white-btn{
+.white-btn {
   background-color: var(--white);
   border: 1px solid var(--black);
   padding: 8px 1px;
@@ -287,9 +289,26 @@ h1 {
   width: 80%;
 }
 
+  /* SECTION BUSINESS */
+  .business {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+.h2-team {
+  width: 400px;
+}
+
+.blue-link {
+  color:  var(--blue);
+  text-decoration: underline;
+  margin: 50px -8px 80px ;
+}
+
+
 /* FREE TRIAL SECTION  */
 
-.freetrial{
+.freetrial {
   width: 100%;
   height: 300px;
   background-color: var(--lightblue);
@@ -298,15 +317,15 @@ h1 {
   width: 1000px;
   margin: auto;
 }
-.trial-flex{
+.trial-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 #h2-trial {
- max-width:  370px;
- font-size: 30px;
+  max-width: 370px;
+  font-size: 30px;
 }
 
 .btn-trial {
@@ -319,7 +338,7 @@ h1 {
 }
 
 .line {
- margin: 30px ;
+  margin: 30px;
 }
 
 #greya0 {
